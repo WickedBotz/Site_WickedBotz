@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>WickedBotz - Projetos</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/clean-blog.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="css/feju.css" rel="stylesheet">
+    <link href="css/botoesfeju.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style media="screen">
+    .hoverzoom {
+position: relative;
+
+overflow: hidden;
+}
+.hoverzoom > img {
+
+border-radius: 2px;
+-webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+-moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+-ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+-o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.hoverzoom:hover > img {
+-webkit-transform: scale(1.5);
+-moz-transform: scale(1.5);
+-ms-transform: scale(1.5);
+-o-transform: scale(1.5);
+transform: scale(1.5);
+}
+.hoverzoom .retina{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+opacity: 0;
+border-radius: 2px;
+text-align: center;
+padding: 30px;
+-webkit-transition:	 all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+-moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+-ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+-o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.hoverzoom:hover .retina {
+opacity: 1;
+box-shadow: inset 0 0 100px 50px rgba(0,0,0,.5);
+}
+.hoverzoom .retina p {
+color: #fff;
+}
+.hoverzoom .retina a {
+display: block;
+width: 150px;
+border-radius: 4px;
+text-decoration: none;
+text-align: center;
+padding: 10px 15px;
+margin: 16px auto 0;
+}
+.hoverzoom .retina a:hover {color:#fff!important}
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+       <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header page-scroll">
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+             <span class="sr-only">Menu de navegação</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             </button>
+             <a class="navbar-brand" href="index.php"><img src="img/logo/wickedbotz.png" alt="" style="margin-top: -10px"/></a><a href="#"></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+             <ul class="nav navbar-nav navbar-right" >
+                <li>
+                   <a href="index.php">Inicio</a>
+                </li>
+                <li>
+                   <a href="about.html">Sobre</a>
+                </li>
+                <li>
+                   <a href="post.html">Projetos</a>
+                </li>
+                <li>
+                   <a href="album.html">Album</a>
+                </li>
+                <li>
+                   <a href="contact.html">Contato</a>
+                </li>
+
+             </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+       </div>
+       <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/bg/project-bg.png')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="page-heading">
+                        <h2>Nossos Projetos</h2>
+                        <hr class="small">
+                        <span class="subheading">Grupo de Robótica da Católica</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                  <h2 class="section-heading">Robos Autonômos</h2>
+
+                    <p>O objetivo desses projetos é o desenvolvimento de robôs autônomos, que tenha a capacidade de locomoção em um ambiente real.
+</p>
+                       <p>
+                         Utilizando tecnologias com GPS bussola, sensores de detecção de cor, sonares acústicos e infravermelho para detecção de objetos.
+
+                       </p>
+                       <p>
+                        Seu desenvolvimento proporcionou aos acadêmicos envolvidos um enorme aprendizado, tanto na área de robótica como nas demais áreas utilizadas para a finalização do robô̂.
+
+                       </p>
+                       <div class="hoverzoom">
+                         <img class="img-responsive" src="img/projeto/track.jpg" alt="">
+                         <div class="retina">
+                           <p>
+                             Acadêmicos de Sistemas da Informação Joe Vogel e João Smitch
+                           </p>
+                           <a class="btn btn-danger" href="#">Saiba mais</a>
+                         </div>
+                       </div>
+                    <span class="caption text-muted text-left">Robô Trecking — 1&deg; Lugar no Campeonato Internacional Winter Challenge, décima edição</span>
+                    <h4>Resultados:</h4>
+                    <span>
+                        Campeonato no Winter Challenge X:
+                    </span>
+                    <ul>
+                      <li>Eather Rover</li>
+                      <ul>
+                        <li> 1&deg; Lugar</li>
+                      </ul>
+                    </ul>
+                    <span>
+                        Campeonato no Winter Challenge XI:
+                    </span>
+                    <ul>
+                      <li>Eather Rover</li>
+                      <ul>
+                        <li> 4&deg; Lugar</li>
+                      </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </article>
+    <hr>
+
+
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <h2 class="section-heading">Robos de Seguidores de Linha</h2>
+                    <p>A equipe possui dois robôs nessa categoria, um chamado Herbie,
+                       devido ao design de um fusca desenvolvido pelos alunos do curso de Design
+                       da Católica de Santa Catarina em Jaraguá́ do Sul, e o outro chamado Robô̂ L,
+                        o primeiro robô̂ criado pela equipe em papel cartolina.
+</p>
+                       <p>
+                         O projeto do robô̂ Herbie foi desenvolvido em SolidWorks®,
+                          onde os componentes foram testa- dos para que o dimensionamento
+                           dos componentes eletrônicos e depois foi gerado arquivo para ser
+                            impresso em uma impressora 3D do Laboratório de Protótipos da Católica
+                             de Santa Catarina.
+
+                       </p>
+
+                       <div class="hoverzoom">
+                         <img class="img-responsive" src="img/robos/herbie.jpg" alt="">
+                         <div class="retina">
+                           <p>
+                             Robô seguidor de linha desenvolvido por acadêmicos de Sistemas de Informação
+                           </p>
+                         </div>
+                       </div>
+                    <span class="caption text-muted text-left">Modelo 3D Herbie</span>
+                    <h4>Resultados:</h4>
+                    <span>
+                        Campeonato no Winter Challenge VII:
+                    </span>
+                    <ul>
+                      <li>Robô L</li>
+                      <ul>
+                        <li> 5&deg; Lugar ;</li>
+                      </ul>
+                    </ul>
+                    <span>
+                        Campeonato no Winter Challenge X:
+                    </span>
+                    <ul>
+                      <li>Robô L </li>
+                      <ul>
+                        <li> 18&deg; Lugar</li>
+                      </ul>
+                    </ul>
+                    <span>
+                        Campeonato no Winter Challenge XI:
+                    </span>
+                    <ul>
+                      <li>Herbie</li>
+                      <ul>
+                        <li> 14&deg; Lugar</li>
+                      </ul>
+                    </ul>
+
+
+                    <span>
+                        Campeonato de Robó ca Móvel da UDESC 2015:
+                    </span>
+
+                    <ul>
+                      <li>Herbie</li>
+                      <ul>
+                        <li> 1&deg; Lugar</li>
+                      </ul>
+                    </ul>
+                    <ul>
+                      <li>Robo L</li>
+                      <ul>
+                        <li> 3&deg; Lugar</li>
+                      </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <h2 class="section-heading">Robos de Batalha</h2>
+                    <p>Os robôs de batalha são uma espécie de MMA (Artes Marciais Mistas) da categoria de robótica.
+</p>
+                       <p>
+                         Eles são controlados por radiofrequência e tem por objetivo a imobilização do oponente.
+
+                       </p>
+                       <p>
+                        Essa competição é a que mais atrai acadêmicos das engenharias, na equipe há dois robôs que participam dos campeonatos, classificados por peso.
+
+                       </p>
+                       <div class="hoverzoom">
+                         <img class="img-responsive" src="img/projeto/json.jpeg" alt="Bruno Silva - Quinta fase de Designer">
+
+                         <div class="retina">
+                           <p>
+                             Robô de batalha desenvolvido por acadêmicos de Engenharia Mecanica e Sistemas da Informação
+                           </p>
+                         </div>
+                       </div>
+                    <span class="caption text-muted text-left">Modelo Jason</span>
+                    <h4>Resultados:</h4>
+                    <span>
+                        VII Winter Challenge:
+                    </span>
+                    <ul>
+                      <li>Robô Jason</li>
+                      <ul>
+                        <li> 11 &deg; Lugar;</li>
+                      </ul>
+                      <li>Robô The Ripper</li>
+                      <ul>
+                        <li> 3 &deg; Lugar;</li>
+                      </ul>
+                    </ul>
+                    <span>
+                        X Winter Challenge:
+                    </span>
+                    <ul>
+
+                    <li>Robô Jason</li>
+                    <ul>
+                      <li> 7 &deg; Lugar;</li>
+                    </ul>
+                    <li>Robô The Ripper</li>
+                    <ul>
+                      <li> 5 &deg; Lugar;</li>
+                    </ul>
+                  </ul>
+
+
+                  <span>
+                      XI Winter Challenge:
+                  </span>
+                  <ul>
+
+                  <li>Robô Jason</li>
+                  <ul>
+                    <li> 4 &deg; Lugar;</li>
+                  </ul>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </article>
+    <hr>
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <h2 class="section-heading">Robos de Sumo</h2>
+                    <p>A equipe possui três robôs nesta categoria, sendo um de 500g, outro de 1kg e um de 3kg.
+                    </p>
+                       <p>
+                        Todos eles participam de campeonatos nacionais e internacionais entre universidades.
+                       </p>
+                       <p>
+                        Wickedbotz começou a participar de competições com robôs de sumô em 2015.
+                       </p>
+                       <div class="hoverzoom">
+                         <img  class="img-responsive" src="img/projeto/bender.jpg" alt="Bruno Silva - Quinta fase de Designer">
+
+                         <div class="retina">
+                           <p>
+                             Robô de Sumo desenvolvido por acadêmicos do curso de Sistemas da Informação
+                           </p>
+                         </div>
+                       </div>
+                    <span class="caption text-muted text-left">Modelo Bender</span>
+                    <h4>Resultados:</h4>
+                    <span>
+                        XI Winter Challenge:
+                    </span>
+                    <ul>
+                      <li>Robô Marvin 500G</li>
+                      <ul>
+                        <li> 13 &deg; Lugar;</li>
+                      </ul>
+                      <li>Robô BadBlock Lego 1KG </li>
+                      <ul>
+                        <li> 14 &deg; Lugar;</li>
+                      </ul>
+                      <li>Robô Bender 3KG </li>
+                      <ul>
+                        <li> 8 &deg; Lugar;</li>
+                      </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Footer -->
+    <footer>
+      <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a class="twt" href="https://twitter.com/WickedbotzSc" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" class="face" href="https://www.facebook.com/WickedBotz/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="git" href="https://github.com/catolicasc" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted" id="ano"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+    <script src="js/feju.js"></script>
+
+</body>
+
+</html>

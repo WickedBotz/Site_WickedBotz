@@ -1,0 +1,45 @@
+.twt
+{
+	color: #6CADDE!important;
+}
+.twt:hover
+{
+	color: rgba(108, 173, 222, 0.85)!important;
+}
+.face
+{
+	color: #4867AA!important;
+}
+.face:hover
+{
+	color: rgba(72, 103, 170, 0.85)!important;
+}
+.git
+{
+	color: black!important;
+}
+.git:hover
+{
+	color: rgba(0, 0, 0, 0.85)!important;
+}
+
+.pager li>a:hover, .pager li>a:focus {
+    color: #fff!important;
+    background-color: #B7334F !important!important;
+    border: 1px solid #B7334F !important!important;
+}
+
+hr.soften {
+		height: 1px!important;
+		background-image: -webkit-linear-gradient(left, rgba(154, 33, 43, 0), rgba(154, 33, 43,.8), rgba(154, 33, 43,0))!important;
+		background-image:    -moz-linear-gradient(left, rgba(154, 33, 43, 0), rgba(154, 33, 43,.8), rgba(154, 33, 43,0))!important;
+		background-image:     -ms-linear-gradient(left, rgba(154, 33, 43, 0), rgba(154, 33, 43,.8), rgba(154, 33, 43,0))!important;
+		background-image:      -o-linear-gradient(left, rgba(154, 33, 43, 0), rgba(154, 33, 43,.8), rgba(154, 33, 43,0))!important;
+		border: 0!important;
+}
+
+.btn-default:hover, .btn-default:focus {
+/*background-color: #B7334F !important;
+border: 1px solid #B7334F !important;
+color: #fff!important;*/
+}
